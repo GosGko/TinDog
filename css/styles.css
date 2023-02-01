@@ -1,15 +1,79 @@
 h1 {
     font-family: 'Montserrat-Black', sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
-    font-weight: 900;
+    font-weight: 1000;
+    color: white;
+    margin: 0 auto 50px auto;
 }
 
 #title {
     background-color: #ff4c68;
+    
 }
 
 .container-fluid {
-    padding: 3% 15%;
+        padding: 3% 15%;
+        overflow: hidden;
+        height: 45rem;
 }
 
+.navbar {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.btn-dark {
+    margin-right: 15px;
+}
+
+.navbar-brand {
+    font-size: 2.7rem;
+    font-family: 'Ubuntu';
+}
+
+.img-iphone6 {
+    width: 59%;
+    position: absolute;
+    right: 30%;
+}
+
+.rotated {
+    transform: rotate(25deg);
+}
+
+.col-lg-6 {
+    position: relative;
+}
+
+.fa-solid {
+    font-size: 5rem;
+    color: #ef8172;
+    margin-bottom: 5%;
+}
+
+.fa-solid:hover {
+    color: #ff4c68;
+}
+
+h3 {
+    font-family: 'montserrat-Black', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+p {
+    color: #8f8f8f;
+    width: 57%;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+
+#features {
+    margin-top: 120px;
+}
