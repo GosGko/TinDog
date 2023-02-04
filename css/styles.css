@@ -181,6 +181,9 @@ p {
         margin: 0 auto;
         font-size: 1.1rem;
     }
+    .container-fluid {
+        padding: 3% 5%;
+    }
 }
 
 @media (max-width: 650px) {
